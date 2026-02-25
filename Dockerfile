@@ -11,7 +11,6 @@ RUN pip install --no-cache-dir --upgrade pip && \
 
 # Копируем весь код проекта
 COPY bot.py .
-COPY .env .
 
 # Команда для запуска бота
 CMD ["python", "bot.py"]
