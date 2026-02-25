@@ -2,6 +2,6 @@ aiogram==3.0.0
 python-gitlab==4.0.0
 python-dotenv==1.0.0
 aiohttp==3.8.5
-pydantic==2.3.0
+pydantic==2.10.6
 pydantic-core==2.6.3
 typing-extensions==4.7.1
