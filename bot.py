@@ -20,7 +20,7 @@ async def cmd_start(message: Message):
         parse_mode="HTML"
     )
     # Отправка фото в конце
-    await message.answer_photo(FSInputFile("prikol.png"))
+    await message.answer_photo(FSInputFile("prikol.jpg"))
 
 
 @dp.message(Command("status"))
